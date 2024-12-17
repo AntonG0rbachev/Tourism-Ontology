@@ -1,0 +1,1483 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/macwork/ontologies/2024/9/untitled-ontology-5"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/macwork/ontologies/2024/9/untitled-ontology-5">
+    <Prefix name="" IRI="http://www.semanticweb.org/macwork/ontologies/2024/9/untitled-ontology-5/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="untitled-ontology-5" IRI="http://www.semanticweb.org/macwork/ontologies/2024/9/untitled-ontology-5#"/>
+    <Declaration>
+        <Class IRI="#ВходятВСтоимость"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Города"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ДопУслуги"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Заказы"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Клиенты"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Поездки"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Страны"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Турагенства"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Услуги"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#включает_в_себя"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#входит_в"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#можно_приобрести_в"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#находится_в"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#отправиться_в"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#оформил"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#адрес"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#город"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#дата"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#датаЗаказа"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#имя"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#наименование"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#началоПоездки"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#окончаниеПоездки"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#описание"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#стоимость"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#страна"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#телефон"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#тип"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#улица"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#фамилия"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#электоронная_почта"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Абхазия"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#АвиаБилеты"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#АнексТур"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#АрендаАвто"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Бангкок"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#БратИгорь"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#БратОлег"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#БронированиеОтелей"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Вася"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ВизоваяПоддержка"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ВипУслуги"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Встречи"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Гоа"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Гудаута"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Дели"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Дубай"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Египет"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Заказ1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Заказ10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Заказ2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Заказ3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Заказ4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Заказ5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Заказ6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Заказ7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Заказ8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Заказ9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Индия"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Канди"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Краснодар"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Круизы"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ЛемешкоДаниил"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Максим"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Москва"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Оаэ"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ОднаНогаЗдесьДругаяТам"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Паттайя"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ПегасТуристик"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Петя"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#РозовыйСлон"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Россия"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Таиланд"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Трансферы"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ТурАбхазия"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ТурАгенство123"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ТурЕгипет"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ТурИндия"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ТурОаэ"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ТурРоссия"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ТурТаиланд"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ТурШриланка"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ФанСан"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Хургада"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ЧерновВладимир"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Шриланка"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ЯковДайнега"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#ВходятВСтоимость"/>
+        <Class IRI="#Услуги"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ДопУслуги"/>
+        <Class IRI="#Услуги"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Страны"/>
+        <NamedIndividual IRI="#Абхазия"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ВходятВСтоимость"/>
+        <NamedIndividual IRI="#АвиаБилеты"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Турагенства"/>
+        <NamedIndividual IRI="#АнексТур"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ДопУслуги"/>
+        <NamedIndividual IRI="#АрендаАвто"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Города"/>
+        <NamedIndividual IRI="#Бангкок"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Клиенты"/>
+        <NamedIndividual IRI="#БратИгорь"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Клиенты"/>
+        <NamedIndividual IRI="#БратОлег"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ВходятВСтоимость"/>
+        <NamedIndividual IRI="#БронированиеОтелей"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Клиенты"/>
+        <NamedIndividual IRI="#Вася"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ДопУслуги"/>
+        <NamedIndividual IRI="#ВизоваяПоддержка"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ДопУслуги"/>
+        <NamedIndividual IRI="#ВипУслуги"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ДопУслуги"/>
+        <NamedIndividual IRI="#Встречи"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Города"/>
+        <NamedIndividual IRI="#Гоа"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Города"/>
+        <NamedIndividual IRI="#Гудаута"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Города"/>
+        <NamedIndividual IRI="#Дели"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Города"/>
+        <NamedIndividual IRI="#Дубай"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Страны"/>
+        <NamedIndividual IRI="#Египет"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Заказы"/>
+        <NamedIndividual IRI="#Заказ1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Заказы"/>
+        <NamedIndividual IRI="#Заказ10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Заказы"/>
+        <NamedIndividual IRI="#Заказ2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Заказы"/>
+        <NamedIndividual IRI="#Заказ3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Заказы"/>
+        <NamedIndividual IRI="#Заказ4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Заказы"/>
+        <NamedIndividual IRI="#Заказ5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Заказы"/>
+        <NamedIndividual IRI="#Заказ6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Заказы"/>
+        <NamedIndividual IRI="#Заказ7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Заказы"/>
+        <NamedIndividual IRI="#Заказ8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Заказы"/>
+        <NamedIndividual IRI="#Заказ9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Страны"/>
+        <NamedIndividual IRI="#Индия"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Города"/>
+        <NamedIndividual IRI="#Канди"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Города"/>
+        <NamedIndividual IRI="#Краснодар"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ДопУслуги"/>
+        <NamedIndividual IRI="#Круизы"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Клиенты"/>
+        <NamedIndividual IRI="#ЛемешкоДаниил"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Клиенты"/>
+        <NamedIndividual IRI="#Максим"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Города"/>
+        <NamedIndividual IRI="#Москва"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Страны"/>
+        <NamedIndividual IRI="#Оаэ"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Турагенства"/>
+        <NamedIndividual IRI="#ОднаНогаЗдесьДругаяТам"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Города"/>
+        <NamedIndividual IRI="#Паттайя"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Турагенства"/>
+        <NamedIndividual IRI="#ПегасТуристик"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Клиенты"/>
+        <NamedIndividual IRI="#Петя"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Турагенства"/>
+        <NamedIndividual IRI="#РозовыйСлон"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Страны"/>
+        <NamedIndividual IRI="#Россия"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Страны"/>
+        <NamedIndividual IRI="#Таиланд"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ДопУслуги"/>
+        <NamedIndividual IRI="#Трансферы"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Поездки"/>
+        <NamedIndividual IRI="#ТурАбхазия"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Турагенства"/>
+        <NamedIndividual IRI="#ТурАгенство123"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Поездки"/>
+        <NamedIndividual IRI="#ТурЕгипет"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Поездки"/>
+        <NamedIndividual IRI="#ТурИндия"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Поездки"/>
+        <NamedIndividual IRI="#ТурОаэ"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Поездки"/>
+        <NamedIndividual IRI="#ТурРоссия"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Поездки"/>
+        <NamedIndividual IRI="#ТурТаиланд"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Поездки"/>
+        <NamedIndividual IRI="#ТурШриланка"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Турагенства"/>
+        <NamedIndividual IRI="#ФанСан"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Города"/>
+        <NamedIndividual IRI="#Хургада"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Клиенты"/>
+        <NamedIndividual IRI="#ЧерновВладимир"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Страны"/>
+        <NamedIndividual IRI="#Шриланка"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Клиенты"/>
+        <NamedIndividual IRI="#ЯковДайнега"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#входит_в"/>
+        <NamedIndividual IRI="#АвиаБилеты"/>
+        <NamedIndividual IRI="#ТурАбхазия"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#входит_в"/>
+        <NamedIndividual IRI="#АвиаБилеты"/>
+        <NamedIndividual IRI="#ТурЕгипет"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#входит_в"/>
+        <NamedIndividual IRI="#АвиаБилеты"/>
+        <NamedIndividual IRI="#ТурИндия"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#входит_в"/>
+        <NamedIndividual IRI="#АвиаБилеты"/>
+        <NamedIndividual IRI="#ТурОаэ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#входит_в"/>
+        <NamedIndividual IRI="#АвиаБилеты"/>
+        <NamedIndividual IRI="#ТурТаиланд"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#входит_в"/>
+        <NamedIndividual IRI="#АвиаБилеты"/>
+        <NamedIndividual IRI="#ТурШриланка"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#входит_в"/>
+        <NamedIndividual IRI="#АрендаАвто"/>
+        <NamedIndividual IRI="#ТурАбхазия"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#входит_в"/>
+        <NamedIndividual IRI="#АрендаАвто"/>
+        <NamedIndividual IRI="#ТурРоссия"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#находится_в"/>
+        <NamedIndividual IRI="#Бангкок"/>
+        <NamedIndividual IRI="#Таиланд"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#оформил"/>
+        <NamedIndividual IRI="#БратИгорь"/>
+        <NamedIndividual IRI="#Заказ1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#оформил"/>
+        <NamedIndividual IRI="#БратОлег"/>
+        <NamedIndividual IRI="#Заказ2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#входит_в"/>
+        <NamedIndividual IRI="#БронированиеОтелей"/>
+        <NamedIndividual IRI="#ТурАбхазия"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#входит_в"/>
+        <NamedIndividual IRI="#БронированиеОтелей"/>
+        <NamedIndividual IRI="#ТурЕгипет"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#входит_в"/>
+        <NamedIndividual IRI="#БронированиеОтелей"/>
+        <NamedIndividual IRI="#ТурИндия"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#входит_в"/>
+        <NamedIndividual IRI="#БронированиеОтелей"/>
+        <NamedIndividual IRI="#ТурОаэ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#входит_в"/>
+        <NamedIndividual IRI="#БронированиеОтелей"/>
+        <NamedIndividual IRI="#ТурРоссия"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#входит_в"/>
+        <NamedIndividual IRI="#БронированиеОтелей"/>
+        <NamedIndividual IRI="#ТурТаиланд"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#входит_в"/>
+        <NamedIndividual IRI="#БронированиеОтелей"/>
+        <NamedIndividual IRI="#ТурШриланка"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#оформил"/>
+        <NamedIndividual IRI="#Вася"/>
+        <NamedIndividual IRI="#Заказ10"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#входит_в"/>
+        <NamedIndividual IRI="#ВизоваяПоддержка"/>
+        <NamedIndividual IRI="#ТурИндия"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#входит_в"/>
+        <NamedIndividual IRI="#ВизоваяПоддержка"/>
+        <NamedIndividual IRI="#ТурШриланка"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#входит_в"/>
+        <NamedIndividual IRI="#ВипУслуги"/>
+        <NamedIndividual IRI="#ТурТаиланд"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#входит_в"/>
+        <NamedIndividual IRI="#ВипУслуги"/>
+        <NamedIndividual IRI="#ТурШриланка"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#входит_в"/>
+        <NamedIndividual IRI="#Встречи"/>
+        <NamedIndividual IRI="#ТурАбхазия"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#входит_в"/>
+        <NamedIndividual IRI="#Встречи"/>
+        <NamedIndividual IRI="#ТурОаэ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#находится_в"/>
+        <NamedIndividual IRI="#Гоа"/>
+        <NamedIndividual IRI="#Индия"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#находится_в"/>
+        <NamedIndividual IRI="#Гудаута"/>
+        <NamedIndividual IRI="#Абхазия"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#находится_в"/>
+        <NamedIndividual IRI="#Дели"/>
+        <NamedIndividual IRI="#Индия"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#находится_в"/>
+        <NamedIndividual IRI="#Дубай"/>
+        <NamedIndividual IRI="#Оаэ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#включает_в_себя"/>
+        <NamedIndividual IRI="#Заказ1"/>
+        <NamedIndividual IRI="#ТурАбхазия"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#включает_в_себя"/>
+        <NamedIndividual IRI="#Заказ10"/>
+        <NamedIndividual IRI="#ТурИндия"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#включает_в_себя"/>
+        <NamedIndividual IRI="#Заказ2"/>
+        <NamedIndividual IRI="#ТурАбхазия"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#включает_в_себя"/>
+        <NamedIndividual IRI="#Заказ3"/>
+        <NamedIndividual IRI="#ТурТаиланд"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#включает_в_себя"/>
+        <NamedIndividual IRI="#Заказ4"/>
+        <NamedIndividual IRI="#ТурЕгипет"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#включает_в_себя"/>
+        <NamedIndividual IRI="#Заказ5"/>
+        <NamedIndividual IRI="#ТурРоссия"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#включает_в_себя"/>
+        <NamedIndividual IRI="#Заказ6"/>
+        <NamedIndividual IRI="#ТурОаэ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#включает_в_себя"/>
+        <NamedIndividual IRI="#Заказ7"/>
+        <NamedIndividual IRI="#ТурОаэ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#включает_в_себя"/>
+        <NamedIndividual IRI="#Заказ8"/>
+        <NamedIndividual IRI="#ТурШриланка"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#включает_в_себя"/>
+        <NamedIndividual IRI="#Заказ9"/>
+        <NamedIndividual IRI="#ТурШриланка"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#находится_в"/>
+        <NamedIndividual IRI="#Канди"/>
+        <NamedIndividual IRI="#Шриланка"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#находится_в"/>
+        <NamedIndividual IRI="#Краснодар"/>
+        <NamedIndividual IRI="#Россия"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#входит_в"/>
+        <NamedIndividual IRI="#Круизы"/>
+        <NamedIndividual IRI="#ТурЕгипет"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#входит_в"/>
+        <NamedIndividual IRI="#Круизы"/>
+        <NamedIndividual IRI="#ТурОаэ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#входит_в"/>
+        <NamedIndividual IRI="#Круизы"/>
+        <NamedIndividual IRI="#ТурТаиланд"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#оформил"/>
+        <NamedIndividual IRI="#ЛемешкоДаниил"/>
+        <NamedIndividual IRI="#Заказ3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#оформил"/>
+        <NamedIndividual IRI="#ЛемешкоДаниил"/>
+        <NamedIndividual IRI="#Заказ4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#оформил"/>
+        <NamedIndividual IRI="#Максим"/>
+        <NamedIndividual IRI="#Заказ5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#находится_в"/>
+        <NamedIndividual IRI="#Москва"/>
+        <NamedIndividual IRI="#Россия"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#находится_в"/>
+        <NamedIndividual IRI="#Паттайя"/>
+        <NamedIndividual IRI="#Таиланд"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#оформил"/>
+        <NamedIndividual IRI="#Петя"/>
+        <NamedIndividual IRI="#Заказ6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#входит_в"/>
+        <NamedIndividual IRI="#Трансферы"/>
+        <NamedIndividual IRI="#ТурШриланка"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#можно_приобрести_в"/>
+        <NamedIndividual IRI="#ТурАбхазия"/>
+        <NamedIndividual IRI="#АнексТур"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#можно_приобрести_в"/>
+        <NamedIndividual IRI="#ТурАбхазия"/>
+        <NamedIndividual IRI="#ФанСан"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#отправиться_в"/>
+        <NamedIndividual IRI="#ТурАбхазия"/>
+        <NamedIndividual IRI="#Абхазия"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#можно_приобрести_в"/>
+        <NamedIndividual IRI="#ТурЕгипет"/>
+        <NamedIndividual IRI="#АнексТур"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#можно_приобрести_в"/>
+        <NamedIndividual IRI="#ТурЕгипет"/>
+        <NamedIndividual IRI="#ПегасТуристик"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#можно_приобрести_в"/>
+        <NamedIndividual IRI="#ТурЕгипет"/>
+        <NamedIndividual IRI="#РозовыйСлон"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#можно_приобрести_в"/>
+        <NamedIndividual IRI="#ТурЕгипет"/>
+        <NamedIndividual IRI="#ФанСан"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#отправиться_в"/>
+        <NamedIndividual IRI="#ТурЕгипет"/>
+        <NamedIndividual IRI="#Египет"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#можно_приобрести_в"/>
+        <NamedIndividual IRI="#ТурИндия"/>
+        <NamedIndividual IRI="#АнексТур"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#можно_приобрести_в"/>
+        <NamedIndividual IRI="#ТурИндия"/>
+        <NamedIndividual IRI="#РозовыйСлон"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#отправиться_в"/>
+        <NamedIndividual IRI="#ТурИндия"/>
+        <NamedIndividual IRI="#Индия"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#можно_приобрести_в"/>
+        <NamedIndividual IRI="#ТурОаэ"/>
+        <NamedIndividual IRI="#АнексТур"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#можно_приобрести_в"/>
+        <NamedIndividual IRI="#ТурОаэ"/>
+        <NamedIndividual IRI="#ОднаНогаЗдесьДругаяТам"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#можно_приобрести_в"/>
+        <NamedIndividual IRI="#ТурОаэ"/>
+        <NamedIndividual IRI="#ПегасТуристик"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#отправиться_в"/>
+        <NamedIndividual IRI="#ТурОаэ"/>
+        <NamedIndividual IRI="#Оаэ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#можно_приобрести_в"/>
+        <NamedIndividual IRI="#ТурРоссия"/>
+        <NamedIndividual IRI="#АнексТур"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#можно_приобрести_в"/>
+        <NamedIndividual IRI="#ТурРоссия"/>
+        <NamedIndividual IRI="#ПегасТуристик"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#можно_приобрести_в"/>
+        <NamedIndividual IRI="#ТурРоссия"/>
+        <NamedIndividual IRI="#ТурАгенство123"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#можно_приобрести_в"/>
+        <NamedIndividual IRI="#ТурРоссия"/>
+        <NamedIndividual IRI="#ФанСан"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#отправиться_в"/>
+        <NamedIndividual IRI="#ТурРоссия"/>
+        <NamedIndividual IRI="#Россия"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#можно_приобрести_в"/>
+        <NamedIndividual IRI="#ТурТаиланд"/>
+        <NamedIndividual IRI="#АнексТур"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#можно_приобрести_в"/>
+        <NamedIndividual IRI="#ТурТаиланд"/>
+        <NamedIndividual IRI="#ПегасТуристик"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#можно_приобрести_в"/>
+        <NamedIndividual IRI="#ТурТаиланд"/>
+        <NamedIndividual IRI="#ФанСан"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#отправиться_в"/>
+        <NamedIndividual IRI="#ТурТаиланд"/>
+        <NamedIndividual IRI="#Таиланд"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#можно_приобрести_в"/>
+        <NamedIndividual IRI="#ТурШриланка"/>
+        <NamedIndividual IRI="#АнексТур"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#можно_приобрести_в"/>
+        <NamedIndividual IRI="#ТурШриланка"/>
+        <NamedIndividual IRI="#ОднаНогаЗдесьДругаяТам"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#можно_приобрести_в"/>
+        <NamedIndividual IRI="#ТурШриланка"/>
+        <NamedIndividual IRI="#ПегасТуристик"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#отправиться_в"/>
+        <NamedIndividual IRI="#ТурШриланка"/>
+        <NamedIndividual IRI="#Шриланка"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#находится_в"/>
+        <NamedIndividual IRI="#Хургада"/>
+        <NamedIndividual IRI="#Египет"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#оформил"/>
+        <NamedIndividual IRI="#ЧерновВладимир"/>
+        <NamedIndividual IRI="#Заказ7"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#оформил"/>
+        <NamedIndividual IRI="#ЧерновВладимир"/>
+        <NamedIndividual IRI="#Заказ8"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#оформил"/>
+        <NamedIndividual IRI="#ЯковДайнега"/>
+        <NamedIndividual IRI="#Заказ9"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#наименование"/>
+        <NamedIndividual IRI="#Абхазия"/>
+        <Literal>Абхазия</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#стоимость"/>
+        <NamedIndividual IRI="#АвиаБилеты"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#город"/>
+        <NamedIndividual IRI="#АнексТур"/>
+        <Literal>Москва</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#наименование"/>
+        <NamedIndividual IRI="#АнексТур"/>
+        <Literal>Anex Tour</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#страна"/>
+        <NamedIndividual IRI="#АнексТур"/>
+        <Literal>Россия</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#телефон"/>
+        <NamedIndividual IRI="#АнексТур"/>
+        <Literal>8 495 009 50 00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#улица"/>
+        <NamedIndividual IRI="#АнексТур"/>
+        <Literal>Двинцев</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#электоронная_почта"/>
+        <NamedIndividual IRI="#АнексТур"/>
+        <Literal>cc@anextour.com</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#стоимость"/>
+        <NamedIndividual IRI="#АрендаАвто"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#наименование"/>
+        <NamedIndividual IRI="#Бангкок"/>
+        <Literal>Бангкок</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#имя"/>
+        <NamedIndividual IRI="#БратИгорь"/>
+        <Literal>Игорь</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#фамилия"/>
+        <NamedIndividual IRI="#БратИгорь"/>
+        <Literal>Гайворонский</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#имя"/>
+        <NamedIndividual IRI="#БратОлег"/>
+        <Literal>Олег</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#фамилия"/>
+        <NamedIndividual IRI="#БратОлег"/>
+        <Literal>Гайворонский</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#стоимость"/>
+        <NamedIndividual IRI="#БронированиеОтелей"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1500</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#имя"/>
+        <NamedIndividual IRI="#Вася"/>
+        <Literal>Василий</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#телефон"/>
+        <NamedIndividual IRI="#Вася"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">+78423412459</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#фамилия"/>
+        <NamedIndividual IRI="#Вася"/>
+        <Literal>Васильев</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#стоимость"/>
+        <NamedIndividual IRI="#ВизоваяПоддержка"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#стоимость"/>
+        <NamedIndividual IRI="#ВипУслуги"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#стоимость"/>
+        <NamedIndividual IRI="#Встречи"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#наименование"/>
+        <NamedIndividual IRI="#Гоа"/>
+        <Literal>Гоа</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#наименование"/>
+        <NamedIndividual IRI="#Гудаута"/>
+        <Literal>Гудаута</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#наименование"/>
+        <NamedIndividual IRI="#Дели"/>
+        <Literal>Дели</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#наименование"/>
+        <NamedIndividual IRI="#Дубай"/>
+        <Literal>Дубай</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#наименование"/>
+        <NamedIndividual IRI="#Египет"/>
+        <Literal>Египет</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#датаЗаказа"/>
+        <NamedIndividual IRI="#Заказ1"/>
+        <Literal>12/12/2023</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#датаЗаказа"/>
+        <NamedIndividual IRI="#Заказ10"/>
+        <Literal>09/01/2024</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#датаЗаказа"/>
+        <NamedIndividual IRI="#Заказ2"/>
+        <Literal>23/07/2024</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#датаЗаказа"/>
+        <NamedIndividual IRI="#Заказ3"/>
+        <Literal>31/08/2023</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#датаЗаказа"/>
+        <NamedIndividual IRI="#Заказ4"/>
+        <Literal>05/05/2025</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#датаЗаказа"/>
+        <NamedIndividual IRI="#Заказ5"/>
+        <Literal>24/01/2024</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#датаЗаказа"/>
+        <NamedIndividual IRI="#Заказ6"/>
+        <Literal>25/10/2023</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#датаЗаказа"/>
+        <NamedIndividual IRI="#Заказ7"/>
+        <Literal>27/08/2023</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#датаЗаказа"/>
+        <NamedIndividual IRI="#Заказ8"/>
+        <Literal>22/11/2023</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#датаЗаказа"/>
+        <NamedIndividual IRI="#Заказ9"/>
+        <Literal>29/01/2023</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#наименование"/>
+        <NamedIndividual IRI="#Индия"/>
+        <Literal>Индия</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#наименование"/>
+        <NamedIndividual IRI="#Канди"/>
+        <Literal>Канди</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#наименование"/>
+        <NamedIndividual IRI="#Краснодар"/>
+        <Literal>Краснодар</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#стоимость"/>
+        <NamedIndividual IRI="#Круизы"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4500</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#имя"/>
+        <NamedIndividual IRI="#ЛемешкоДаниил"/>
+        <Literal>Даниил</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#телефон"/>
+        <NamedIndividual IRI="#ЛемешкоДаниил"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">+79183100755</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#фамилия"/>
+        <NamedIndividual IRI="#ЛемешкоДаниил"/>
+        <Literal>Лемешко</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#электоронная_почта"/>
+        <NamedIndividual IRI="#ЛемешкоДаниил"/>
+        <Literal>jalkopchelki@mail.com</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#имя"/>
+        <NamedIndividual IRI="#Максим"/>
+        <Literal>Максимилианно</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#фамилия"/>
+        <NamedIndividual IRI="#Максим"/>
+        <Literal>Максимов</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#электоронная_почта"/>
+        <NamedIndividual IRI="#Максим"/>
+        <Literal>maxim@maxim.mail.ru</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#наименование"/>
+        <NamedIndividual IRI="#Москва"/>
+        <Literal>Москва</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#наименование"/>
+        <NamedIndividual IRI="#Оаэ"/>
+        <Literal>Оаэ</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#наименование"/>
+        <NamedIndividual IRI="#Паттайя"/>
+        <Literal>Паттайя</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#имя"/>
+        <NamedIndividual IRI="#Петя"/>
+        <Literal>Петя</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#телефон"/>
+        <NamedIndividual IRI="#Петя"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">+79184738549</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#фамилия"/>
+        <NamedIndividual IRI="#Петя"/>
+        <Literal>Петров</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#наименование"/>
+        <NamedIndividual IRI="#Россия"/>
+        <Literal>Россия</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#наименование"/>
+        <NamedIndividual IRI="#Таиланд"/>
+        <Literal>Таиланд</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#стоимость"/>
+        <NamedIndividual IRI="#Трансферы"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2500</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#наименование"/>
+        <NamedIndividual IRI="#ТурАбхазия"/>
+        <Literal>тур Абхазия</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#началоПоездки"/>
+        <NamedIndividual IRI="#ТурАбхазия"/>
+        <Literal>12/11/2024</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#окончаниеПоездки"/>
+        <NamedIndividual IRI="#ТурАбхазия"/>
+        <Literal>12/12/2024</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#тип"/>
+        <NamedIndividual IRI="#ТурАбхазия"/>
+        <Literal>Деловая поездка</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#наименование"/>
+        <NamedIndividual IRI="#ТурЕгипет"/>
+        <Literal>тур Египет</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#началоПоездки"/>
+        <NamedIndividual IRI="#ТурЕгипет"/>
+        <Literal>13/10/2024</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#окончаниеПоездки"/>
+        <NamedIndividual IRI="#ТурЕгипет"/>
+        <Literal>25/12/2024</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#наименование"/>
+        <NamedIndividual IRI="#ТурИндия"/>
+        <Literal>тур Индия</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#началоПоездки"/>
+        <NamedIndividual IRI="#ТурИндия"/>
+        <Literal>03/12/2024</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#окончаниеПоездки"/>
+        <NamedIndividual IRI="#ТурИндия"/>
+        <Literal>23/12/2024</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#наименование"/>
+        <NamedIndividual IRI="#ТурОаэ"/>
+        <Literal>тур ОАЭ</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#началоПоездки"/>
+        <NamedIndividual IRI="#ТурОаэ"/>
+        <Literal>29/12/2024</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#окончаниеПоездки"/>
+        <NamedIndividual IRI="#ТурОаэ"/>
+        <Literal>13/01/2024</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#наименование"/>
+        <NamedIndividual IRI="#ТурРоссия"/>
+        <Literal>тур Россия</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#началоПоездки"/>
+        <NamedIndividual IRI="#ТурРоссия"/>
+        <Literal>13/08/2024</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#окончаниеПоездки"/>
+        <NamedIndividual IRI="#ТурРоссия"/>
+        <Literal>14/09/2024</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#наименование"/>
+        <NamedIndividual IRI="#ТурТаиланд"/>
+        <Literal>тур Таиланд</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#началоПоездки"/>
+        <NamedIndividual IRI="#ТурТаиланд"/>
+        <Literal>07/07/2024</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#началоПоездки"/>
+        <NamedIndividual IRI="#ТурТаиланд"/>
+        <Literal>09/09/2024</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#началоПоездки"/>
+        <NamedIndividual IRI="#ТурШриланка"/>
+        <Literal>31/01/2025</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#окончаниеПоездки"/>
+        <NamedIndividual IRI="#ТурШриланка"/>
+        <Literal>31/03/2025</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#наименование"/>
+        <NamedIndividual IRI="#Хургада"/>
+        <Literal>Хургада</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#имя"/>
+        <NamedIndividual IRI="#ЧерновВладимир"/>
+        <Literal>Вова</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#телефон"/>
+        <NamedIndividual IRI="#ЧерновВладимир"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">+79094563372</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#фамилия"/>
+        <NamedIndividual IRI="#ЧерновВладимир"/>
+        <Literal>Чернов</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#электоронная_почта"/>
+        <NamedIndividual IRI="#ЧерновВладимир"/>
+        <Literal>chernovvova@gmail.com</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#наименование"/>
+        <NamedIndividual IRI="#Шриланка"/>
+        <Literal>Шриланка</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#имя"/>
+        <NamedIndividual IRI="#ЯковДайнега"/>
+        <Literal>Яков</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#телефон"/>
+        <NamedIndividual IRI="#ЯковДайнега"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">+79886693101</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#фамилия"/>
+        <NamedIndividual IRI="#ЯковДайнега"/>
+        <Literal>Дайнега</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#электоронная_почта"/>
+        <NamedIndividual IRI="#ЯковДайнега"/>
+        <Literal>dienigga@mail.ru</Literal>
+    </DataPropertyAssertion>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#включает_в_себя"/>
+    </FunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#включает_в_себя"/>
+        <Class IRI="#Заказы"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#входит_в"/>
+        <Class IRI="#Услуги"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#можно_приобрести_в"/>
+        <Class IRI="#Поездки"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#находится_в"/>
+        <Class IRI="#Города"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#отправиться_в"/>
+        <Class IRI="#Поездки"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#оформил"/>
+        <Class IRI="#Клиенты"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#включает_в_себя"/>
+        <Class IRI="#Поездки"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#входит_в"/>
+        <Class IRI="#Поездки"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#можно_приобрести_в"/>
+        <Class IRI="#Турагенства"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#находится_в"/>
+        <Class IRI="#Страны"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#отправиться_в"/>
+        <Class IRI="#Страны"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#оформил"/>
+        <Class IRI="#Заказы"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#город"/>
+        <DataProperty IRI="#адрес"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#датаЗаказа"/>
+        <DataProperty IRI="#дата"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#началоПоездки"/>
+        <DataProperty IRI="#дата"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#окончаниеПоездки"/>
+        <DataProperty IRI="#дата"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#страна"/>
+        <DataProperty IRI="#адрес"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#улица"/>
+        <DataProperty IRI="#адрес"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#имя"/>
+        <Class IRI="#Клиенты"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#телефон"/>
+        <Class IRI="#Клиенты"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#тип"/>
+        <Class IRI="#Поездки"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#фамилия"/>
+        <Class IRI="#Клиенты"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#имя"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#наименование"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#описание"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#стоимость"/>
+        <Datatype abbreviatedIRI="owl:real"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#тип"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#фамилия"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#электоронная_почта"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
