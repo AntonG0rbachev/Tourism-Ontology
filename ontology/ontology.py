@@ -28,14 +28,11 @@ class TourismOntology:
     def get_service(self, service: str = None):
         return self.__ontology.Услуги(service) if service else self.get_all_services()
 
-
-ontology = get_tourism_ontology()
-
-print(list(ontology.classes()))
-print(list(ontology.individuals()))
-print(list(ontology.properties()))
-print(list(ontology.object_properties()))
-
-print()
-for service in ontology.Услуги.instances():
-    print(ontology.Услуги(service).входит_в)
+    def get_services_and_tours(self):
+        services_and_tours = ''
+        services = self.get_all_services()
+        for service in services:
+            services_and_tours += f'Услуга {service.name} входит в туры:\n'
+            for tour in self.__ontology.Услуги(service).входит_в:
+                services_and_tours += f'- {tour.name}\n'
+        return services_and_tours
