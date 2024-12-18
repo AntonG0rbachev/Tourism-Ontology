@@ -1,6 +1,7 @@
 from ontology.ontology import TourismOntology
 from application.tours import ToursDialog
 from application.services import ServicesDialog
+from application.recommendation import RecommendDialog
 
 tourism_ontology = TourismOntology()
 
@@ -41,7 +42,6 @@ def open_services():
 
 def open_tours_and_services():
     services_and_tours = tourism_ontology.get_services_and_tours()
-    result = ''
 
     if not services_and_tours:
         result = 'Ничего не найдено в базе'
@@ -52,3 +52,9 @@ def open_tours_and_services():
     result = services_and_tours
     dialog = ServicesDialog(result)
     dialog.exec_()
+
+
+def open_recommend():
+    dialog = RecommendDialog(tourism_ontology)
+    dialog.exec_()
+    return dialog

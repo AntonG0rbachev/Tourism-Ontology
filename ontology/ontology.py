@@ -36,3 +36,19 @@ class TourismOntology:
             for tour in self.__ontology.Услуги(service).входит_в:
                 services_and_tours += f'- {tour.name}\n'
         return services_and_tours
+
+    def get_tours_by_service(self, service_name: str = None):
+        if not service_name:
+            return self.get_services_and_tours()
+
+        result = str()
+        for service in self.get_all_services():
+            print(service)
+            if service_name == f'{service.name}':
+                result += 'Рекомендованные Вам туры:\n'
+                for tour in self.__ontology.Услуги(service).входит_в:
+                    result += f'- {tour.name}\n'
+        if not result:
+            result = 'Ничего не найдено в базе'
+
+        return result
